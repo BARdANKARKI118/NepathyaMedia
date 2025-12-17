@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Home from '../Components/Home/Home'
+import AboutUs from '../Components/AboutUs/AboutUs'
 
 
 
@@ -10,8 +11,11 @@ const App = () => {
       <script src="https://kit.fontawesome.com/ad578f6ba6.js" crossorigin="anonymous"></script>
       <Navbar/>
      <Home/>
+     <div className='about  '>
+     <AboutUs/>
+     </div>
     </div>
   )
 }
-
+    
 export default App
